@@ -1,0 +1,124 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+h1 a {
+	text-align: center;
+    text-transform: uppercase;
+	font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+	font-size: 2em;
+	margin: 5em;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	right: 10em;
+	color: #C78C19;
+	text-decoration: underline;
+}
+.banner {
+    position: relative;
+    left: 3em;
+	top: 3em;
+    width: 6em;
+    height: auto;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+	width: 400px;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.content-wraper {
+	display: flex;
+	align-items: center;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}	
+
+.subtitulos {
+    text-align: center;
+	font-size: 1.5em;
+	margin: 0 0 1em;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.daniel-semfundo {
+	width: 480px;
+}
+
+.posts {
+	display: flex;
+}
+
+.post {
+	flex: 1;
+	max-width: calc(100%/3);
+}
+
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_ft {
+    position: relative;
+    width: 3em;
+    height: auto;
+}
+
+.copyright {
+	position: relative;
+}

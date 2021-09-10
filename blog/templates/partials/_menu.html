@@ -1,0 +1,15 @@
+{% load static %}
+
+<header>
+    <div>
+        <img class = "banner" src = "{% static 'danslafrance.jpg' %}" alt = "danslafrance_banner">
+        <h1> <a href = "{% url 'index' %}"> Danslafrance</a></h1>
+        <nav>
+            <ul>
+                <li> <a href = "{% url 'index' %}"> Home </a></li>
+                <li> <a href = "{% url 'contato' %}"> Contato </a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>

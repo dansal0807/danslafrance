@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+{% include 'partials/_menu.html' %}
+
+<main>
+	<section class="principal">
+		<h1 class="titulo-principal"> Bem-vindo ao Danslafrance - um pedacinho da França no Brasil </h1>
+		<div class="content-wraper">
+			<img class="daniel-semfundo" src="{% static 'daniel_semfundo.png' %}" alt="Professor Daniel">
+			<div class="text-wraper">
+				<h3 class="subtitulos"> Quem é o autor do Danslafrance?</h3>
+
+				<div class="paragrafo-principal">
+					<p> Me chamo Daniel Saldanha, sou professor de francês e inglês há 4 anos.
+						Quando comecei a estudar francês em 2010, não imaginava as portas que se abririam para mim.
+						Não apenas tenho meu trabalho atual ao redor da língua francesa, como minha visão de mundo
+						mudou
+						completamente.
+					</p>
+
+					<p>
+						Hoje, tenho o firme entendimento que os limites do nosso mundo são os limites da nossa
+						linguagem.
+						O francês não se refletiu apenas em um novo entendimento de várias culturas, como trouxe
+						novos
+						aprendizados do
+						português e do inglês, facilitando também meu aprendizado em italiano e espanhol. De longe,
+						das
+						línguas latinas,
+						o francês é a língua mais internacionalizada, influenciando e sendo influenciada por diversas
+						línguas!
+					</p>
+					<p>
+						Na minha formação acadêmica em filosofia, o francês foi fundamental para a compreensão do
+						pensamento humano.
+						Compreender a forma como falamos muda quem somos e quem somos molda a forma como falamos. Esta
+						foi
+						uma das
+						motivações da criação da página: auxiliar quem deseja ter uma nova abertura de mundo pelo
+						francês, expandindo as
+						fronteiras da sua própria linguagem e de seu modo de ser.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<h3> Posts do Blog:</h3>
+		<br>
+		<div class = "posts">
+		<div class="post">
+			<p> Tittle </p>
+			<p> content </p>
+		</div>
+		<div  class="post">
+			<p> Tittle </p>
+			<p> content </p>
+		</div>
+	</div>
+</main>
+
+{% endblock %}

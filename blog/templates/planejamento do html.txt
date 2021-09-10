@@ -1,0 +1,10 @@
+<header> imagem do danslafrance </header>
+
+<body>
+<main>
+				<h2> quem é o autor do danslafrance </h2>
+foto daniel_semfundo_bg   	<p> parágrafo de apresentação </p>
+
+<h2> Quais as vantagens de aprender Francês? </h2>
+
+<p> 
