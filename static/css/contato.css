@@ -91,60 +91,6 @@ main {
 	transform: scale(1.1);
 }
 
-.canal_tl {
-	margin: 1em;
-}
-
-.content-wraper {
-	display: flex;
-	align-items: center;
-}
-
-.titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-}	
-
-.subtitulos {
-    text-align: center;
-	font-size: 1.5em;
-	margin: 0 0 1em;
-}
-
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
-	margin: 0 auto;
-}
-
-.principal p {
-	margin: 0 0 1em;
-}
-
-.principal strong {
-	font-weight: bold;
-}
-
-.principal em {
-	font-style: italic;
-}
-
-.daniel-semfundo {
-	width: 480px;
-}
-
-.posts {
-	display: flex;
-}
-
-.post {
-	flex: 1;
-	max-width: calc(100%/3);
-}
-
-
 footer {
 	display: flex;
 	align-items: center;
